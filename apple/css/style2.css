@@ -30,6 +30,7 @@ body{
 	line-height: 0.75;
 }
 
+
 /** little logo*/
 .navbar-brand a:hover {
 	text-decoration: none;
@@ -91,6 +92,43 @@ body{
 
 /* END HEADER */
 
+/*end header*/
+
+/*footer*/
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #32838C;
+	border-top: 0;
+	color: #DFF2F2;
+}
+.panel-footer div.row {
+	margin-bottom: 30px;
+}
+#hours, #address {
+	line-height: 2;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+#address p{
+	font-size: .7em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+	padding-top: 10px;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+#testimonials p:nth-child(3) {
+	margin-top: 25px;
+}
+/*end footer*/
+
 /*Main page*/
 
 #first-tile, #faces-tile, #map-tile {
@@ -98,12 +136,34 @@ body{
 	width: 100%;
 	margin-bottom: 15px;
 	position:relative;
-	border: 2px solid #60BFBF;
+	/*border: 2px solid #60BFBF;*/
 	overflow: hidden;
 }
 
 #first-tile:hover, #faces-tile:hover, #map-tile:hover{
 	box-shadow: 0 1px 5px 1px #BFBFBF;
+}
+
+#first-tile {
+	background: url('../images/first-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#faces-tile {
+	background: url('../images/faces-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#first-tile span, #faces-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: #DFF2F2;
+	background-color: #32838C;
 }
 
 /********** Large devices only **********/
@@ -198,6 +258,23 @@ body{
     text-transform: uppercase
   }
 
+  /*end header*/
+
+  /*footer*/
+
+  .panel-footer section {
+  	margin-bottom: 30px;
+  	text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+  	margin-bottom: 0;
+  }
+  .panel-footer section hr{
+  	width: 50%;
+  }
+
+  /*end footer*/
+
   /*home page*/
 
   /*main image*/
@@ -205,6 +282,11 @@ body{
   .container .jumbotron {
   	margin-top: 30px;
   	padding: 0;
+  }
+
+  #first-tile, #faces-tile, #map-tile{
+  	width: 360px;
+  	margin: 0 auto 15px;
   }
 
 }
