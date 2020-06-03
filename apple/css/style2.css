@@ -91,6 +91,21 @@ body{
 
 /* END HEADER */
 
+/*Main page*/
+
+#first-tile, #faces-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position:relative;
+	border: 2px solid #60BFBF;
+	overflow: hidden;
+}
+
+#first-tile:hover, #faces-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #BFBFBF;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
