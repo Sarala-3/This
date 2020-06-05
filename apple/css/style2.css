@@ -227,7 +227,6 @@ body{
 		height:648px;
 	}
 
-
 }
 
 /********** Small devices only **********/
@@ -240,6 +239,7 @@ body{
 		background: url('../images/hello_768.jpg') no-repeat;
 		height:500px;
 	}
+
 
 }
 
@@ -322,4 +322,25 @@ body{
   	margin: 0 auto 15px;
   }
 
+}
+
+  /******* Super extra small devices Only ******/
+  @media (max-width: 479px) {
+
+  	/* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+
+  /*categories on first link*/
+.col-xxs-12 {
+  	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
 }
