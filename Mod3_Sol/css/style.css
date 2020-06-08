@@ -1,0 +1,110 @@
+body{
+	background-color: #BAD9D9;
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+}
+
+/**Header**/
+#header-nav {
+	background-color:#32838C;
+	border-radius: 0;
+	border: 0;
+	padding: 5px;
+}
+.navbar-brand{
+	padding: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Nunito', sans-serif;
+	color: #F2D1B3;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.2;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #DFF2F2;
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: #DFF2F2;
+	color: #32838C;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+	border: 1px solid #DFF2F2; 
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+/**End header**/
+
+/**Main content**/
+
+#ourmenu-title {
+	color: #32838C;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+	margin-top: 0;
+}
+#home-sections h3 {
+	text-align: center;
+	color: #DFF2F2;
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+#home-sections p {
+	font-size: .91em;
+	color: #235c62;
+}
+#chicken-section {
+	background-color: #60BFBF;
+	margin-bottom: 20px;
+	padding: 2px 20px 20px 20px;
+}
+#beef-section {
+	background-color: #60BFBF;
+	margin-bottom: 20px;
+	padding: 2px 20px 20px 20px;
+}
+#sushi-section {
+	background-color: #60BFBF;
+	margin-bottom: 20px;
+	padding: 2px 20px 20px 20px;
+}
+#home-sections a{
+	float: right;
+	position: relative;
+	bottom: 10px;
+	font-size: .75em;
+	color: #DFF2F2;
+}
+#home-sections a:hover {
+	text-decoration: none;
+}
+
+/**End main content**/
+
+/*** Extra small devices only **/
+@media (max-width: 767px) {
+
+.navbar-brand h1{
+	line-height: 0.6;
+}
+	}
+
+
+
+
+
