@@ -47,8 +47,6 @@ var switchMenuToActive = function () {
 };
 
 
-
-
 	//on page load (before images or css)
 
 	document.addEventListener ("DomContentLoaded", function (event){
@@ -59,7 +57,7 @@ var switchMenuToActive = function () {
 	$ajaxUtils.sendGetRequest(
 		homeHtml,
 		function(responseText){
-			document.quesrySelector ("main-content")
+			document.querySelector ("#main-content")
 			.innerHTML = responseText;
 		},
 		false);	
